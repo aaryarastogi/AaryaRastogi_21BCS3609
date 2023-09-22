@@ -1,6 +1,6 @@
 my project is in master branch
 # Team Leader:
-# Name: Aarya Rastogi , Uid: 21BCS3609 , Contact Number : 8273537557
+# Name: AARYA RASTOGI , Uid: 21BCS3609 , Contact Number : 8273537557
 
 # Team Member details:
 # Uid: 21BCS11022 , Name: KM KIRAN , Phone number: 9389898837
