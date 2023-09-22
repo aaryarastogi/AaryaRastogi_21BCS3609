@@ -5,10 +5,10 @@ my project is in master branch
 # Team Member details:
 # Uid: 21BCS11022 , Name: KM KIRAN , Phone number: 9389898837
 
-Project title: 
+## Project title: 
 # Recipe-sharing website featuring vegan food:
 
-Problem Statement: 
+# Problem Statement: 
 In this phase, students need to create a gallery of different recipes and show the details of recipes when interacted with.
 
 # Project Deployed Link:
