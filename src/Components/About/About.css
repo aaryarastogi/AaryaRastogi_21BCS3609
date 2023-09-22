@@ -1,0 +1,63 @@
+.whole{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.image{
+  flex:1;
+}
+
+.image img {
+  max-width:100%;
+  height: auto;
+  display: block;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 20px;
+  color:rgba(239, 239, 239, 0.807);
+}
+
+p {
+  font-size: 16px;
+  color:rgba(239, 239, 239, 0.959)
+}
+
+@media (max-width: 768px) {
+  .whole {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .image img{
+    flex: none; 
+    margin:0;
+    max-width: 600%;
+  }
+
+  .text {
+    flex: 1; 
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.text h3{
+  font-size: 32px;
+  color:whitesmoke;
+}
+
+.text li{
+  list-style:circle;
+  color: gainsboro;
+  margin-bottom: 10px;
+  text-align: justify;
+}

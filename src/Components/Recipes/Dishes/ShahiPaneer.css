@@ -1,0 +1,92 @@
+.dish {
+    position: relative; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+  }
+  
+  .dish::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://foodiewish.com/wp-content/uploads/2020/07/shahi-Paneer1-758x683.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: 0; 
+    opacity: 0.9;
+  }
+  
+  .content {
+    color:white;
+    font-size:56px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-transform: capitalize;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .detail{
+    font-size:16px;
+    color:whitesmoke;
+    text-align: justify;
+    margin: 2%;
+  }
+
+  .head{
+    font-size: 32px;
+    text-align: left;
+    margin-left: 25px;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+
+  .four-boxes {
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+    border: 3px solid whitesmoke;
+    background:transparent;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .box p{
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:whitesmoke;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+  .steps{
+    list-style:circle;
+    text-align: left;
+    color:azure;
+  }
+
+  .steps li{
+    margin-bottom: 5px;
+  }
+  
+  
