@@ -13,4 +13,4 @@ In this phase, students need to create a gallery of different recipes and show t
 
 # Project Deployed Link:
 
-https://itzrecipeweb.netlify.app/
+https://itsrecipeweb.netlify.app/
